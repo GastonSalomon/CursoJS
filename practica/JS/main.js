@@ -1,9 +1,26 @@
-let nombre = prompt("Ingresa tu nombre");
+let nombre = prompt("Hola, ¿Como te llamas?");
 console.log(nombre);
 
-let apellido = prompt("Ingresa tu apellido");
+let apellido = prompt("¿Cual es tu apellido?");
 console.log(apellido);
 
-let edad = prompt("Ingresa tu edad");
+let edad = prompt("¿Que edad tenes?");
+console.log(edad);
 
-alert("Vos te llamas" + nombre + " " + apellido + " tenes " + edad + " años ");
+let edadFutura = prompt("¿Elegí un numero del 0 al 10?");
+let sumaEdades = parseInt(edad) + parseInt(edadFutura);
+console.log(sumaEdades);
+
+alert(
+  "Vos te llamas " +
+    nombre +
+    " " +
+    apellido +
+    " y tenes " +
+    edad +
+    " años,en " +
+    edadFutura +
+    " años vas a tener," +
+    sumaEdades +
+    ""
+);
