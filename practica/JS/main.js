@@ -7,11 +7,17 @@ console.log(apellido);
 let edad = prompt("¿Que edad tenes?");
 console.log(edad);
 
-let edadFutura = prompt("¿Elegí un numero del 0 al 10?");
-let sumaEdades = parseInt(edad) + parseInt(edadFutura);
-console.log(sumaEdades);
+if (edad >= 18) {
+  alert("¡¡Bienvenido!!");
+} else if (edad < 18) {
+  alert("Sos muy chico para entrar.");
+}
 
-alert(
+/*let edadFutura = prompt("¿Elegí un numero del 0 al 10?");
+let sumaEdades = parseInt(edad) + parseInt(edadFutura);
+console.log(sumaEdades);*/
+
+/*alert(
   "Vos te llamas " +
     nombre +
     " " +
@@ -23,4 +29,4 @@ alert(
     " años vas a tener," +
     sumaEdades +
     ""
-);
+);*/
