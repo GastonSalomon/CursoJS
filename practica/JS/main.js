@@ -13,21 +13,16 @@ if (edad >= 18) {
   alert("Sos muy chico para entrar.");
 }
 
-let pregunta = parseInt(prompt("¿del 0 al 10 , cuanto te gusto?"));
-while (pregunta != "ESC") {
-  switch (pregunta) {
-    case "0":
-      alert("¿Tan mal salio?");
-      break;
-      case "5":
-      alert("¿?Que podemos mejorar");
-      break;
-  }
-    case "10":
-      alert("¡Muchas gracias!");
-      break;
+let numero = prompt("¿Decime un numero del 0 al 10?");
+for (numero; numero < 10; numero++) {
+  if (numero <= 4) {
+    alert("Es menor que 5");
+    break;
+  } else if (numero > 5) {
+    console.log(numero);
   }
 }
+
 /*let edadFutura = prompt("¿Elegí un numero del 0 al 10?");
 let sumaEdades = parseInt(edad) + parseInt(edadFutura);
 console.log(sumaEdades);*/
