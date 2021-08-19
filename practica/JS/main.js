@@ -81,11 +81,9 @@ function bienvenida() {
   return darBienvenida;
 }
 
-function sexo () {
-  const pregSex = prompt("¿Sos hombre o sos mujer?")
+function sexo() {
+  const pregSex = prompt("¿Sos hombre o sos mujer?");
   if (pregSex == "Hombre") {
     alert("Podes Ingresa");
-    else if (pregSex == "Mujer") {
-      alert(" Podes Ingresa")}
   }
 }
