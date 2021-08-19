@@ -40,7 +40,7 @@ console.log(sumaEdades);*/
     ""
 );*/
 
-function anoNacimiento() {
+/*function anoNacimiento() {
   const edadNacimiento = parseInt(prompt("Ingresa tu año de nacimiento"));
   return edadNacimiento;
 }
@@ -72,4 +72,20 @@ const num1 = numeroElección();
 const restaNumeros = resta(ano1, ano2);
 const resultadoFinal = sumaNumero(restaNumeros);
 
-console.log(resultadoFinal);
+console.log(resultadoFinal);*/
+
+/*Aca empieza Trabajo final*/
+
+function bienvenida() {
+  const darBienvenida = alert("¡Hola Bienvenido a ¿Que hago?");
+  return darBienvenida;
+}
+
+function sexo () {
+  const pregSex = prompt("¿Sos hombre o sos mujer?")
+  if (pregSex == "Hombre") {
+    alert("Podes Ingresa");
+    else if (pregSex == "Mujer") {
+      alert(" Podes Ingresa")}
+  }
+}
