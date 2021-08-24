@@ -76,14 +76,35 @@ console.log(resultadoFinal);*/
 
 /*Aca empieza Trabajo final*/
 
+class OPCBIENVENIDA {
+  constructor(sexo, edad, vivis) {
+    this.sexo = sexo || undefined;
+    this.edad = edad || undefined;
+    this.vivis = vivis || undefined;
+  }
+}
+
 function bienvenida() {
   const darBienvenida = alert("¡Hola Bienvenido a ¿Que hago?");
-  const ayuda = prompt("¿En que te ayudamos hoy?");
-  return darBienvenida;
+  const ayuda = confirm(
+    "¿Queres que te ayudemos? , te vamos a pedir que ingreses algunos datos."
+  );
+  console.log(ayuda);
+  if (ayuda) {
+    for (let i = 0; i < 1; i++) {
+      const opc0 = prompt("¿Cual es tu sexo?");
+      const opc1 = prompt("¿Que edad tenes?");
+      const opc2 = prompt("¿Cual es tu nombre?");
+      const opc3 = prompt("¿Donde vivis?");
+      console.log();
+    }
+  } else {
+    alert("Elegiste no responder las preguntas. !Te esperamos la proxima¡");
+  }
 }
 bienvenida();
 
-function sexo() {
+/*function sexo() {
   const pregSex = prompt("¿Sos hombre o sos mujer?");
   if (pregSex == "hombre") {
     alert("Podes Ingresar");
@@ -91,4 +112,4 @@ function sexo() {
     alert("Podes Ingresar");
   }
 }
-sexo();
+sexo();*/
