@@ -78,12 +78,17 @@ console.log(resultadoFinal);*/
 
 function bienvenida() {
   const darBienvenida = alert("¡Hola Bienvenido a ¿Que hago?");
+  const ayuda = prompt("¿En que te ayudamos hoy?");
   return darBienvenida;
 }
+bienvenida();
 
 function sexo() {
   const pregSex = prompt("¿Sos hombre o sos mujer?");
-  if (pregSex == "Hombre") {
-    alert("Podes Ingresa");
+  if (pregSex == "hombre") {
+    alert("Podes Ingresar");
+  } else if (pregSex == "mujer") {
+    alert("Podes Ingresar");
   }
 }
+sexo();
