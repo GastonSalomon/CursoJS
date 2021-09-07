@@ -74,6 +74,16 @@ const resultadoFinal = sumaNumero(restaNumeros);
 
 console.log(resultadoFinal);*/
 
+/*function sexo() {
+  const pregSex = prompt("¿Sos hombre o sos mujer?");
+  if (pregSex == "hombre") {
+    alert("Podes Ingresar");
+  } else if (pregSex == "mujer") {
+    alert("Podes Ingresar");
+  }
+}
+sexo();*/
+
 /*Aca empieza Trabajo final*/
 
 class OPCBIENVENIDA {
@@ -85,7 +95,7 @@ class OPCBIENVENIDA {
 }
 
 function bienvenida() {
-  const darBienvenida = alert("¡Hola Bienvenido a ¿Que hago?");
+  const darBienvenida = alert("¡Hola Bienvenido a ¿Que Como?");
   const ayuda = confirm(
     "¿Queres que te ayudemos? , te vamos a pedir que ingreses algunos datos."
   );
@@ -103,13 +113,3 @@ function bienvenida() {
   }
 }
 bienvenida();
-
-/*function sexo() {
-  const pregSex = prompt("¿Sos hombre o sos mujer?");
-  if (pregSex == "hombre") {
-    alert("Podes Ingresar");
-  } else if (pregSex == "mujer") {
-    alert("Podes Ingresar");
-  }
-}
-sexo();*/
